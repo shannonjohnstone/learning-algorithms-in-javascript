@@ -1,2 +1,2 @@
 # learning-algorithms-in-javascript
-A repository for learning algorithms
+This is a repository for learning all things related to algorithms in JavaScript.

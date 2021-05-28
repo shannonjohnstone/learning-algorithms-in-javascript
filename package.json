@@ -1,0 +1,24 @@
+{
+  "name": "learning-algorithms-in-javascript",
+  "version": "1.0.0",
+  "description": "This is a repository for learning all things related to algorithms in JavaScript.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shannonjohnstone/learning-algorithms-in-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shannonjohnstone/learning-algorithms-in-javascript/issues"
+  },
+  "homepage": "https://github.com/shannonjohnstone/learning-algorithms-in-javascript#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  }
+}
