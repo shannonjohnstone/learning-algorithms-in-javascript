@@ -3,21 +3,21 @@ export function sumZeroMultiplePointer(arr) {
   
   const array = arr.sort();
   
-  let leftPositionOfArray = 0;
-  let rightPositionOfArray = array.length - 1
+  let leftIndex = 0;
+  let rightIndex = array.length - 1
   
-  while(leftPositionOfArray < rightPositionOfArray) {
-    const leftValue = array[leftPositionOfArray]
-    const rightValue = array[rightPositionOfArray]
+  while(leftIndex < rightIndex) {
+    const leftValue = array[leftIndex]
+    const rightValue = array[rightIndex]
 
     const total = leftValue + rightValue
     
     if (total === 0) {
       return [leftValue, rightValue]
     } else if (total > 0) {
-      rightPositionOfArray --
+      rightIndex --
     } else {
-      leftPositionOfArray --
+      leftIndex --
     }
   }
 }
